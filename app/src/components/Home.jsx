@@ -1,7 +1,10 @@
+import {UsersList} from "./UserList.jsx"
+
 export const Home = () => {
     return (
        <div>
-            <h1>Welcome HOme Page</h1>
+            <h1>Home Page</h1>
+            {/* <UsersList></UsersList> */}
        </div>
     )
 }
