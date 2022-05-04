@@ -1,10 +1,10 @@
-import {UsersList} from "./UserList.jsx"
+import {Dataa} from "./Dataa"
 
 export const Home = () => {
     return (
        <div>
-            <h1>Home Page</h1>
-            <UsersList></UsersList>
+            <h1>Welcome to zoo</h1>
+            <Dataa></Dataa>
        </div>
     )
 }
