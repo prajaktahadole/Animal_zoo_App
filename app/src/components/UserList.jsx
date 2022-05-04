@@ -20,7 +20,7 @@ export const  UsersList = () => {
                 <div key={animal.id} className="main">
 
                    <Link to={`/users/${animal.id}`}>
-                      <img src={animal.image_link}></img>
+                      <img src={animal.image_link} alt=""></img>
                       <h1>{animal.name}</h1>
                       <h3>{animal.animal_type}</h3>
                      
