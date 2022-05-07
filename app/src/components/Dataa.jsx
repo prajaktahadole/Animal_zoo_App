@@ -14,7 +14,7 @@ export const Dataa = () => {
   }, []);
   return (
 
-<div>
+<div className="main_container_data">
 {animals.map((animal) => (
 <div className="main_home">
 

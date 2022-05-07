@@ -4,29 +4,3 @@ body *{
   text-align: center ;
 }
 
-
-.main_container{
-  width: 100%; 
-  margin: auto;
-  border: 1px solid red;
-  display: grid;
-  grid-template-columns: repeat(3, 28%);
-}
-
-.main_div{
- 
-  border: 1px solid forestgreen;
-  width: 100%;
-  margin: auto;
-  gap: 20px;
-}
-
-
-.main_home{
-  display: grid;
-  grid-template-rows: repeat(2, 40%);
-}
-
-.img1{
-  width: 100%;
-}

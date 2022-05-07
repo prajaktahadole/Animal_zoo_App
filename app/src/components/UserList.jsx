@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import './a.css';
 
 export const  UsersList = () => {
   const [animals, setAnimals] = useState([]);
@@ -14,9 +15,9 @@ export const  UsersList = () => {
   }, []);
   return (
 
-<div>
-{animals.map((animal) => (
 <div className="main_container">
+{animals.map((animal) => (
+<div >
 
         <div key={animal.id} className="main_div">
         <Link to={`/animals/${animal.id}`}>
