@@ -4,8 +4,8 @@ import { Routes, Route } from 'react-router-dom'
 import { Home } from './components/Home'
 import { About } from './components/About'
 import { Navbar } from './components/Navbar'
-import { UsersList } from './components/UserList'
-import { UserData } from './components/UserData'
+import { AnimalsList } from './components/AnimalList'
+import { AimalsData } from './components/AnimalData'
 
 function App() {
 
@@ -15,8 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
-        <Route path='/userslist' element={<UsersList />}></Route>
-        <Route path='/users/:id' element={<UserData />}></Route>
+        <Route path='/animalslist' element={<AnimalsList />}></Route>
+        <Route path='/animals/:id' element={<AimalsData />}></Route>
       </Routes>
     </div>
   )

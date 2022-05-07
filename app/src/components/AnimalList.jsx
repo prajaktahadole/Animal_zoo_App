@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import './a.css';
 
-export const  UsersList = () => {
+export const AnimalsList = () => {
   const [animals, setAnimals] = useState([]);
   useEffect(() => {
     axios
@@ -22,7 +22,7 @@ export const  UsersList = () => {
         <div key={animal.id} className="main_div">
         <Link to={`/animals/${animal.id}`}>
         <h1>{animal.name}</h1>
-        <img src={animal.image_link} alt=""></img>
+        <img src={animal.image_link} alt=""  className="img-list"></img>
         </Link>
         <h4>Type :  {animal.animal_type}</h4>
         <h4>lifespan :  {animal.lifespan}</h4>
