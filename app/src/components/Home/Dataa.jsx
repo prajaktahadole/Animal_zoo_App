@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import './a.css';
+import './Home.css';
 
 
 export const Dataa = () => {
   const [animals, setAnimals] = useState([]);
   useEffect(() => {
     axios
-      .get(`https://zoo-animal-api.herokuapp.com/animals/rand/10`)
+      .get(`https://zoo-animal-api.herokuapp.com/animals/rand/9`)
       .then((res) =>{
         console.log(res) 
         setAnimals(res.data)});

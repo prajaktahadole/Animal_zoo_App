@@ -2,5 +2,8 @@
 body *{
   width: 100%;
   text-align: center ;
+  background-color: rgb(242,242,233);
+  color: black;
 }
+
 

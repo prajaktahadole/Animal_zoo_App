@@ -1,77 +1,33 @@
-
-body *{
-    width: 100%;
-    text-align: center ;
-   color: black;
-  }
-  
-  
-  .main_container{
-
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 25px;
-    margin: 0px;
-    width: 80%;
-    margin: auto;
-  }
-  
-  .main_div{
-   
-    height: auto;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    border-radius: 10px;
-    /* border: 1px solid forestgreen; */
-    width: 100%;
-    margin: auto;
-    height: 600px;
-  }
-
-  .img-list{ 
-   height: 65%;
-    cursor: pointer;
-  }
-
-
-
-
-
-
-
-
-
-
-  /********** Home page **********/
-  .main_container_data{
+/********** Home page **********/
+.main_container_data{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     margin: auto;
     width: 75%;
-    
+ 
   }
 
   .main_home{
-    border: 1px solid green;
+   
+    border: 1px solid darkslategrey;
     margin: auto;
     height: 280px;
     width: 100%;
+    border-radius: 10px;
     background-size: cover;
   }
 
   .main_home > img {
     width:100%;
     height:100%;
+    border-radius: 10px;
     transition: transform .3s;
   }
 
   .main_home > img:hover {
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
-
-
-
-
 
 
   .img1{
@@ -88,7 +44,3 @@ body *{
 
   }
 
-
-  
-
- 

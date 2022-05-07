@@ -1,6 +1,6 @@
 import {Dataa} from "./Dataa";
-import './a.css';
-import '../App.css';
+import './Home.css';
+
 
 export const Home = () => {
     return (

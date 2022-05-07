@@ -1,11 +1,13 @@
 
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import { Home } from './components/Home'
-import { About } from './components/About'
-import { Navbar } from './components/Navbar'
-import { AnimalsList } from './components/AnimalList'
-import { AimalsData } from './components/AnimalData'
+import { Home } from './components/Home/Home'
+import { About } from './components/About/About'
+import { Navbar } from './components/Navbar/Navbar'
+import { AnimalsList } from './components/List/AnimalList'
+import { AimalsData } from './components/Single/AnimalData'
+import {Ticket} from './components/Ticket/Ticket';
+import {Donate} from './components/Donate/Donate'
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path='/animalslist' element={<AnimalsList />}></Route>
         <Route path='/animals/:id' element={<AimalsData />}></Route>
+        <Route path="/donate" element={<Donate />}></Route>
+        <Route path="/ticket" element={<Ticket />}></Route>
       </Routes>
     </div>
   )

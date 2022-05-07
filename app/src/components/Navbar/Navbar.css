@@ -1,0 +1,16 @@
+
+  .navbar-main{
+    display: flex;
+    justify-content: space-around;
+    
+   }
+ 
+  
+   .navbar-main > button{
+     border: 1px solid red;
+     width: 10%;
+     height: 30px;
+     margin-top: 15px;
+     
+   }
+ 
