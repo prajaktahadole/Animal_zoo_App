@@ -10,7 +10,7 @@
       width: 15%;
       margin-left: 5%;
       margin-right: 18%;
-      border: 1px solid black ;
+      /* border: 1px solid black ; */
       
 }
 
@@ -18,18 +18,29 @@
     display: flex;
     justify-content: space-around;
     width: 50%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     
    }
  
   
    .Navbar-right > button{
-      width: 17%;
+      width: 19%;
       height: 35px;
-      border: 1px solid red;
+      /* border: 1px solid red; */
+      border: none;
       margin-left: 10px;
-   
-     
-     
+      font-size: larger;
+      text-decoration: none;   
+   }
+
+   hr{
+     margin-top: -12px;
+     margin-bottom: 15px;
    }
  
+
+
+   .Navbar-right > button  :hover{
+    cursor: pointer;
+    color: gray;
+   }

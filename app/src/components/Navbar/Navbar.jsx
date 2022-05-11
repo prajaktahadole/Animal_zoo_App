@@ -12,7 +12,8 @@ export const Navbar = () => {
     ];
     
     return (
-        <div className="navbar-main">
+        <div>
+         <div className="navbar-main">
             <div className="Navbar-left">
                 <img src={logo}></img>
             </div>
@@ -26,5 +27,10 @@ export const Navbar = () => {
             ))}
             </div>
         </div>
+
+
+        <hr />
+        </div>
+       
     );
 };
