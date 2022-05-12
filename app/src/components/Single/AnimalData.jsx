@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 
-
 export const  AimalsData = () => {
 
   const { id } = useParams();
@@ -16,6 +15,7 @@ export const  AimalsData = () => {
         setAnimals(res.data)});
          
   }, []);
+
   return (
                 <div>
                       <img src={animal.image_link} alt=""></img>
