@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import { PaginationComponent } from "../Pagination/Pagination";
 
 export const  AimalsData = () => {
 
@@ -17,10 +18,16 @@ export const  AimalsData = () => {
   }, []);
 
   return (
-                <div>
-                      <img src={animal.image_link} alt=""></img>
-                      <h1>{animal.name}</h1>
-                      <h2>{animal.animal_type}</h2>                 
-                </div>
+               
+               <div>
+                  <div>
+                <img src={animal.image_link} alt=""></img>
+                <h1>{animal.name}</h1>
+                <h2>{animal.animal_type}</h2>                 
+          </div>
+         
+               </div>
+                
+                
                 );
 };

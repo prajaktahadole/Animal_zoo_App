@@ -26,10 +26,11 @@ export const Navbar = () => {
             </button>
             ))}
             </div>
+            
         </div>
-
-
         <hr />
+
+       
         </div>
        
     );

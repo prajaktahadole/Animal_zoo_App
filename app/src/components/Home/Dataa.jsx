@@ -5,9 +5,17 @@ import './Home.css';
 
 export const Dataa = () => {
   const [animals, setAnimals] = useState([]);
+  const [page, setPage] = useState(1);
   useEffect(() => {
-    axios
-      .get(`https://zoo-animal-api.herokuapp.com/animals/rand/9`)
+    axios({
+      method: "GET",
+      url : 'https://zoo-animal-api.herokuapp.com/animals/rand/9',
+      params :{
+        _page : page,
+          _limit : 9,
+      }
+    })
+      
       .then((res) =>{
         console.log(res) 
         setAnimals(res.data)});
